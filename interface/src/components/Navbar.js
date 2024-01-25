@@ -8,7 +8,7 @@ function Navbar () {
             <div className="flex items-center justify-between bg-[#121D28] w-full h-16 px-4">
                 <Link to='/' className='flex items-center space-x-1'>
                     <img src={testtube} className='w-14 h-12'/>
-                    <div className="text-white text-lg font-semibold">Fluidity</div>
+                    <div className="text-white text-lg font-semibold">Abyss</div>
                 </Link>
                 <div className='flex items-center bg-[#192531] text-[#C7F284] font-semibold text-md h-full px-8'>Automated Market Maker For NFTs</div>
                 <div className="">
