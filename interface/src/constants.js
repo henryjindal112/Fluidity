@@ -15,6 +15,20 @@ export const NFT_CONTRACTS = {
             contractAddress: "0x439BB432207B70496272a333A6D9F419156D1340"
         }
     },
+    "9747778": {
+        "rpc": "http://38.242.129.140:8545",
+        "fluidAddress": "0xF47C02C685AD9C5a16afB1c164F7CDA0da521507",
+        "fluidity": "0x555131fBa03bEA1aB1a999DA27eA36415d05dddb",
+        "BAYC": {
+            contractAddress: "0x53b80ac690C37458b4396992A5cE5c6F25a6D0D2"
+        },
+        "WOW": {
+            contractAddress: "0x6d187159784A767108C41b7212E67Be9BEdaCD86"
+        },
+        "AZUKI": {
+            contractAddress: "0xDFD4B28346824d56c7f3880F067eeD040BffBB1B"
+        }
+    },
     "1188624": {
         "rpc": "https://froopyland.dymension.xyz/14/umbros_1188624-1/evmrpc",
         "fluidAddress": "0xD4441eCbC073970c86a6C121c47f371D1d109ceA",

@@ -15,6 +15,26 @@ import Home from './pages/Home';
 import Liquidity from './pages/Liquidity';
 import Trade from './pages/Trade';
 
+export const abyss = {
+  id: 9_747_778,
+  name: 'Abyss',
+  network: 'Abyss',
+  iconUrl: 'https://raw.githubusercontent.com/dymensionxyz/rollapp-registry/main/devnet/abyss_4029858-1/logos/abyss_4029858-1.png',
+  nativeCurrency: {
+    decimals: 18,
+    name: 'ABYSS',
+    symbol: 'ABYSS',
+  },
+  rpcUrls: {
+    public: { http: ['http://38.242.129.140:8545'] },
+    default: { http: ['http://38.242.129.140:8545'] },
+  },
+  blockExplorers: {
+    etherscan: { name: 'SnowTrace', url: '' },
+    default: { name: 'SnowTrace', url: '' },
+  },
+} 
+
 export const arkham = {
   id: 9_193_196,
   name: 'Arkham',
@@ -56,7 +76,7 @@ export const umbros = {
 } 
 
 const { chains, publicClient } = configureChains(
-  [arkham, umbros],
+  [abyss, arkham, umbros],
   [
     publicProvider()
   ]
