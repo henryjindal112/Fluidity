@@ -55,6 +55,86 @@ export const arkham = {
   },
 } 
 
+export const avocado = {
+  id: 2_177_968,
+  name: 'Avocado',
+  network: 'Avocado',
+  iconUrl: 'https://raw.githubusercontent.com/dymensionxyz/rollapp-registry/main/devnet/avocado_2177968-1/logos/avocado_2177968-1.png',
+  nativeCurrency: {
+    decimals: 18,
+    name: 'AVO',
+    symbol: 'AVO',
+  },
+  rpcUrls: {
+    public: { http: ['https://froopyland.dymension.xyz/14/avocado_2177968-1/evmrpc'] },
+    default: { http: ['https://froopyland.dymension.xyz/14/avocado_2177968-1/evmrpc'] },
+  },
+  blockExplorers: {
+    etherscan: { name: 'SnowTrace', url: '' },
+    default: { name: 'SnowTrace', url: '' },
+  },
+} 
+
+export const animus = {
+  id: 6_468_241,
+  name: 'Animus',
+  network: 'Animus',
+  iconUrl: 'https://raw.githubusercontent.com/dymensionxyz/rollapp-registry/main/devnet/animus_6468241-1/logos/animus_6468241-1.png',
+  nativeCurrency: {
+    decimals: 18,
+    name: 'ANI',
+    symbol: 'ANI',
+  },
+  rpcUrls: {
+    public: { http: ['https://froopyland.dymension.xyz/14/animus_6468241-1/evmrpc'] },
+    default: { http: ['https://froopyland.dymension.xyz/14/animus_6468241-1/evmrpc'] },
+  },
+  blockExplorers: {
+    etherscan: { name: 'SnowTrace', url: '' },
+    default: { name: 'SnowTrace', url: '' },
+  },
+} 
+
+export const ace = {
+  id: 5_736_254,
+  name: 'Ace',
+  network: 'Ace',
+  iconUrl: 'https://raw.githubusercontent.com/dymensionxyz/rollapp-registry/main/devnet/ace_5736254-1/logos/ace_5736254-1.png',
+  nativeCurrency: {
+    decimals: 18,
+    name: 'Ace',
+    symbol: 'Ace',
+  },
+  rpcUrls: {
+    public: { http: ['http://161.97.107.208:8545'] },
+    default: { http: ['http://161.97.107.208:8545'] },
+  },
+  blockExplorers: {
+    etherscan: { name: 'SnowTrace', url: '' },
+    default: { name: 'SnowTrace', url: '' },
+  },
+}
+
+export const dmc = {
+  id: 2_827_710,
+  name: 'DMC',
+  network: 'DMC',
+  iconUrl: 'https://raw.githubusercontent.com/dymensionxyz/rollapp-registry/main/devnet/devilmaycry_2827710-1/logos/devilmaycry_2827710-1.png',
+  nativeCurrency: {
+    decimals: 18,
+    name: 'DMC',
+    symbol: 'DMC',
+  },
+  rpcUrls: {
+    public: { http: ['https://froopyland.dymension.xyz/14/devilmaycry_2827710-1/evmrpc'] },
+    default: { http: ['https://froopyland.dymension.xyz/14/devilmaycry_2827710-1/evmrpc'] },
+  },
+  blockExplorers: {
+    etherscan: { name: 'SnowTrace', url: '' },
+    default: { name: 'SnowTrace', url: '' },
+  },
+}
+
 export const umbros = {
   id: 1_188_624,
   name: 'Umbros',
@@ -75,8 +155,28 @@ export const umbros = {
   },
 } 
 
+export const phoenix = {
+  id: 9_955_692,
+  name: 'Phoenix',
+  network: 'Phoenix',
+  iconUrl: 'https://raw.githubusercontent.com/dymensionxyz/rollapp-registry/main/devnet/phoenix_9955692-1/logos/phoenix_9955692-1.png',
+  nativeCurrency: {
+    decimals: 18,
+    name: 'PHY',
+    symbol: 'PHY',
+  },
+  rpcUrls: {
+    public: { http: ['https://froopyland.dymension.xyz/14/phoenix_9955692-1/evmrpc'] },
+    default: { http: ['https://froopyland.dymension.xyz/14/phoenix_9955692-1/evmrpc'] },
+  },
+  blockExplorers: {
+    etherscan: { name: 'SnowTrace', url: '' },
+    default: { name: 'SnowTrace', url: '' },
+  },
+}
+
 const { chains, publicClient } = configureChains(
-  [abyss, arkham, umbros],
+  [abyss, arkham, avocado, animus, ace, dmc, umbros],
   [
     publicProvider()
   ]
